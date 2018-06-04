@@ -1,0 +1,190 @@
+/*リセット*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+
+header .logo {
+  width: 370px;
+  padding-bottom: 10px;
+}
+
+nav {
+  height: 60px;
+  background-color: black;
+}
+nav ul {
+  margin-left: 30px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: white;
+  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  padding: 22px 30px 22px 30px;
+
+}
+nav ul li a:hover {
+  background-color: #2e2f30;
+  transition: 0.6s;
+}
+/*右カラム*/
+.side-menu {
+  float: right;
+  width: 300px;
+  padding-top: 30px;
+}
+h2 {
+font-size: 26px;
+font-weight: bold;
+border-bottom: 2px dotted gray;
+padding-bottom: 5px;
+}
+article {
+  margin-bottom: 30px;
+}
+.side-menu a {
+ display: block;
+ color: black;
+ padding: 10px 0 10px 5px;
+}
+.side-menu a:hover {
+  color: gray;
+}
+/*左カラム*/
+.bbs {
+  float: left;
+  width: 880px;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  border-left: 4px solid black;
+  border-bottom: 2px solid black;
+}
+form {
+  width: 880px;
+  background-color: #fbfbfb;
+  margin-top: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+form h3 {
+  font-size: 20px;
+  border-left: 5px solid red;
+  font-weight: bold;
+  padding-left: 5px;
+  margin: 15px;
+}
+form div {
+  padding: 15px;
+}
+
+.text, textarea {
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+.submit {
+border: 1px solid lightgray;
+padding: 4px 10px;
+color: white;
+background-color: gray;
+border-radius: 5px;
+border-bottom: 2px solid darkgray;
+}
+
+.kiji {
+  width: 880px;
+  background-color: #fbfbfb;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 1px dotted gray;
+  padding-bottom: 3px;
+  margin: 15px;
+}
+.contents {
+  margin: 15px;
+  padding-top: 5px;
+}
+.handlename {
+  font-size: 7px;
+  margin-top: 10px;
+}
+footer {
+clear: both;
+background-color: black;
+color: white;
+height: 60px;
+text-align: center;
+line-height: 60px;
+font-size: 14px;
+margin-top: 40px;
+}
